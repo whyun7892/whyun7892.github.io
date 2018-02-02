@@ -5,7 +5,7 @@
 
   <title>
     
-      About the Author | U2PIA
+      Source code 예쁘게 프린트 하기 | U2PIA
     
   </title>
 
@@ -42,21 +42,21 @@
 
   <!-- Use Jekyll SEO plugin -->
   <!-- Begin Jekyll SEO tag v2.4.0 -->
-<title>About the Author | U2PIA</title>
+<title>Source code 예쁘게 프린트 하기 | U2PIA</title>
 <meta name="generator" content="Jekyll v3.6.2" />
-<meta property="og:title" content="About the Author" />
-<meta name="author" content="Paul Le" />
+<meta property="og:title" content="Source code 예쁘게 프린트 하기" />
+<meta name="author" content="Wook Hyun" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Hi there! I’m Paul. I’m a physics major turned programmer. Ever since I first learned how to program while taking a scientific computing for physics course, I have pursued programming as a passion, and as a career. Below is a compilation of some of my favourite things that I have built over the years. You may find everything else on my Github and Code Pen profiles." />
-<meta property="og:description" content="Hi there! I’m Paul. I’m a physics major turned programmer. Ever since I first learned how to program while taking a scientific computing for physics course, I have pursued programming as a passion, and as a career. Below is a compilation of some of my favourite things that I have built over the years. You may find everything else on my Github and Code Pen profiles." />
-<link rel="canonical" href="http://localhost:4000/facts/about-the-author.html" />
-<meta property="og:url" content="http://localhost:4000/facts/about-the-author.html" />
+<meta name="description" content="image from" />
+<meta property="og:description" content="image from" />
+<link rel="canonical" href="http://localhost:4000/documentation/source-code-print.html" />
+<meta property="og:url" content="http://localhost:4000/documentation/source-code-print.html" />
 <meta property="og:site_name" content="U2PIA" />
-<meta property="og:image" content="http://localhost:4000/cuba-4.jpg" />
+<meta property="og:image" content="http://localhost:4000/source-code.jpg" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2016-04-04T00:00:00+09:00" />
+<meta property="article:published_time" content="2018-02-03T00:00:00+09:00" />
 <script type="application/ld+json">
-{"description":"Hi there! I’m Paul. I’m a physics major turned programmer. Ever since I first learned how to program while taking a scientific computing for physics course, I have pursued programming as a passion, and as a career. Below is a compilation of some of my favourite things that I have built over the years. You may find everything else on my Github and Code Pen profiles.","author":{"@type":"Person","name":"Paul Le"},"@type":"BlogPosting","url":"http://localhost:4000/facts/about-the-author.html","image":"http://localhost:4000/cuba-4.jpg","headline":"About the Author","dateModified":"2016-04-04T00:00:00+09:00","datePublished":"2016-04-04T00:00:00+09:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/facts/about-the-author.html"},"@context":"http://schema.org"}</script>
+{"description":"image from","author":{"@type":"Person","name":"Wook Hyun"},"@type":"BlogPosting","url":"http://localhost:4000/documentation/source-code-print.html","image":"http://localhost:4000/source-code.jpg","headline":"Source code 예쁘게 프린트 하기","dateModified":"2018-02-03T00:00:00+09:00","datePublished":"2018-02-03T00:00:00+09:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/documentation/source-code-print.html"},"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -120,46 +120,79 @@
   <div class="posts-wrapper">
     <div class="page-content">
   <h1>
-    About the Author
+    Source code 예쁘게 프린트 하기
   </h1>
 
   <span class="post-date">
     Written on
     
-    April
-    4th,
-    2016
+    February
+    3rd
+      ,
+    2018
     by
     
-      Paul Le
+      Wook Hyun
     
   </span>
 
   
     <div class="featured-image">
-      <img src="/assets/img/cuba-4.jpg">
+      <img src="/assets/img/source-code.jpg">
     </div>
   
 
   <article>
-    <p>Hi there! I’m Paul. I’m a physics major turned programmer. Ever since I first learned how to program while taking a scientific computing for physics course, I have pursued programming as a passion, and as a career. Below is a compilation of some of my favourite things that I have built over the years. You may find everything else on my <a href="http://github.com/lenpaul" target="_blank">Github</a> and <a href="https://codepen.io/lenpaul" target="_blank">Code Pen</a> profiles.</p>
+    <div style="text-align: right; font-size: 50%"> 
+ <a href="https://www.crazyegg.com/blog/8-reasons-analyze-source-code/">image from</a>
+</div>
 
-<h3 id="jekyll-website-theme-for-blogging">Jekyll Website Theme for Blogging</h3>
+<p>Visual Studio/Xcode 등을 이용해서 소스코드 프린트하면 글자 짤리고 폰트 너무 크고 등등의 이유로 보기가 좋지 않다. 예전엔 c2ps, c2pdf등이 있어서 참 잘 썼는데, 이제는 지원이 안되거나 한다.
+a2ps를 써도 되긴 하는데, 얘도 거의 노인학대 수준이라 요즘에 쓰기가 어려운 경우가 많다.</p>
 
-<p>Lagrange is a minimalist Jekyll blog theme that I built from scratch. The purpose of this theme is to provide a simple, clean, content-focused blogging platform for your personal site or blog. This theme is currently being used by about three dozen people, with this number growing every day.</p>
+<p>그래서 좀 뒤져봤더니,… 몇가지가 찾은 것을 정리함.</p>
 
-<p><img src="/assets/img/demo.jpg" /></p>
+<h2 id="enscript">enscript</h2>
 
-<p>Feel free to check out <a href="https://lenpaul.github.io/Lagrange/" target="_blank">the demo</a>, where you’ll also find instructions on <a href="https://lenpaul.github.io/Lagrange/journal/Installation-Guide.html">how to use install</a> and use the theme.</p>
+<p>c2ps, a2ps의 대체자로 자리매김한 듯한 command line 명령어이다. 맥에서는 brew를 이용하면 설치 가능하며, 리눅스 계열은 apt-get으로 설치한다.
+소스코드는 예쁘게 잘 뽑아주기는 하나, 한글지원이 안된다.</p>
+
+<h3 id="source-code-printing-example">Source code printing example</h3>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>enscript -2Gr --color -Eperl naver.py -p a.ps
+enscript -2Gr --color -Ejavascript sample.js -o s.ps
+</code></pre></div></div>
+
+<h3 id="text-printing-example">Text printing example</h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>% enscript -G stuff.txt
+  Fancy ("Gaudy") headers
+% enscript -2r stuff.txt
+  Two-up printing -- two pages side-by-side on each page of paper
+% enscript -2Gr stuff.txt
+  Two-up with fancy headers
+% enscript -P otherps stuff.txt
+  Print to the otherps printer instead of the default
+% enscript -d otherps stuff.txt
+  Ditto
+% enscript -i 4 stuff.txt
+  Indent every line four spaces
+% enscript --pretty-print=cpp Object.cc
+  Pretty print C++ source code
+% enscript -E doit.pl
+  Pretty print doit.pl (and automagically figure out that it's Perl from the .pl suffix)
+</code></pre></div></div>
+
+<h3 id="references">References</h3>
+<p>[<a href="https://docstore.mik.ua/orelly/unix3/upt/ch45_07.htm">1</a>]</p>
 
   </article>
 
   <div class="post-share">
     <div class="post-date">Feel free to share!</div>
     <div class="sharing-icons">
-      <a href="https://twitter.com/intent/tweet?text=About the Author&amp;url=/facts/about-the-author.html" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-      <a href="https://www.facebook.com/sharer/sharer.php?u=/facts/about-the-author.html&amp;title=About the Author" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-      <a href="https://plus.google.com/share?url=/facts/about-the-author.html" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+      <a href="https://twitter.com/intent/tweet?text=Source code 예쁘게 프린트 하기&amp;url=/documentation/source-code-print.html" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=/documentation/source-code-print.html&amp;title=Source code 예쁘게 프린트 하기" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+      <a href="https://plus.google.com/share?url=/documentation/source-code-print.html" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
     </div>
   </div>
 
@@ -170,25 +203,25 @@
       
         
           
+          
+        
+          
             <li>
               <h3>
-                <a href="/documentation/getting-started.html">
+                <a href="/documentation/github-blog.html">
                   <div class="related-thumbnail">
                     
-                      <img src="http://localhost:4000/assets/img/city-2.jpg">
+                      <img src="http://localhost:4000/assets/img/cuba-1.jpg">
                     
                   </div>
                   <div class="related-title">
-                    Getting Started
+                    Github Blog 만들기 
                   </div>
-                  <!--<small>October 10, 2016</small>-->
+                  <!--<small>February 2, 2018</small>-->
                 </a>
               </h3>
             </li>
             
-          
-        
-          
           
         
       

@@ -2,9 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 	<channel>
 		<title>U2PIA</title>
-		<description>a Jekyll theme for running a blog or publication</description>
+		<description>Joy of learning</description>
 		<link></link>
 		<atom:link href="/rss-feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Source code 예쁘게 프린트 하기</title>
+				
+					<dc:creator>Wook Hyun</dc:creator>
+				
+				
+					<description>&lt;div style=&quot;text-align: right; font-size: 50%&quot;&gt; 
+ &lt;a href=&quot;https://www.crazyegg.com/blog/8-reasons-analyze-source-code/&quot;&gt;image from&lt;/a&gt;
+&lt;/div&gt;
+
+</description>
+				
+				<pubDate>Sat, 03 Feb 2018 00:00:00 +0900</pubDate>
+				<link>http://localhost:4000/documentation/source-code-print.html</link>
+				<guid isPermaLink="true">http://localhost:4000/documentation/source-code-print.html</guid>
+			</item>
 		
 			<item>
 				<title>Github Blog 만들기 </title>
@@ -37,21 +54,6 @@
 			</item>
 		
 			<item>
-				<title>Welcome to Millennial!</title>
-				
-					<dc:creator>Paul Le</dc:creator>
-				
-				
-					<description>&lt;p&gt;Lagrange is a minimalist Jekyll theme. The purpose of this theme is to provide a simple, clean, content-focused blogging platform for your personal site or blog. Below you can find everything you need to get started.&lt;/p&gt;
-
-</description>
-				
-				<pubDate>Sun, 01 Jan 2017 00:00:00 +0900</pubDate>
-				<link>http://localhost:4000/documentation/welcome-to-millennial.html</link>
-				<guid isPermaLink="true">http://localhost:4000/documentation/welcome-to-millennial.html</guid>
-			</item>
-		
-			<item>
 				<title>Getting Started</title>
 				
 					<dc:creator>Paul Le</dc:creator>
@@ -77,8 +79,8 @@
 </description>
 				
 				<pubDate>Fri, 09 Sep 2016 00:00:00 +0900</pubDate>
-				<link>http://localhost:4000/sample/text-formatting.html</link>
-				<guid isPermaLink="true">http://localhost:4000/sample/text-formatting.html</guid>
+				<link>http://localhost:4000/upcoming/text-formatting.html</link>
+				<guid isPermaLink="true">http://localhost:4000/upcoming/text-formatting.html</guid>
 			</item>
 		
 			<item>

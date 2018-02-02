@@ -5,16 +5,12 @@
 <lastmod>2016-04-04T00:00:00+09:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/sample/text-formatting.html</loc>
+<loc>http://localhost:4000/upcoming/text-formatting.html</loc>
 <lastmod>2016-09-09T00:00:00+09:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/documentation/getting-started.html</loc>
 <lastmod>2016-10-10T00:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/documentation/welcome-to-millennial.html</loc>
-<lastmod>2017-01-01T00:00:00+09:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/documentation/dev-log-idphoto.html</loc>
@@ -23,6 +19,10 @@
 <url>
 <loc>http://localhost:4000/documentation/github-blog.html</loc>
 <lastmod>2018-02-02T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/documentation/source-code-print.html</loc>
+<lastmod>2018-02-03T00:00:00+09:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/pages/about.html</loc>
@@ -43,7 +43,7 @@
 <loc>http://localhost:4000/pages/resources.html</loc>
 </url>
 <url>
-<loc>http://localhost:4000/pages/sample-posts.html</loc>
+<loc>http://localhost:4000/pages/upcoming.html</loc>
 </url>
 <url>
 <loc>http://localhost:4000/page2/</loc>
