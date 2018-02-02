@@ -7,7 +7,7 @@ paginate:            5
 markdown:            kramdown
 highlighter:         rouge
 permalink:           none
-baseurl: /index.html
+# baseurl: /index.html
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
 sass:
@@ -15,7 +15,7 @@ sass:
   style: :nested
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		           "U2PIA2"
+title:		           "U2PIA"
 description:	       "a Jekyll theme for running a blog or publication"
 author:              "Paul Le"
 
